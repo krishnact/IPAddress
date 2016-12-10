@@ -12,6 +12,14 @@
   </dependencies>
     <build>
 		<sourceDirectory>IPAddress/src</sourceDirectory> 
+	       	<resources>
+			<resource>
+				<directory>IPAddress/src</directory>
+				<excludes>
+					<exclude>**/*.java</exclude>
+				</excludes>
+			</resource>
+		</resources>
         <plugins>
             <plugin>
 
