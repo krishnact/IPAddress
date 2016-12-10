@@ -21,5 +21,5 @@ Add dependency
     <dependency>
 	    <groupId>com.github.krishnact</groupId>
 	    <artifactId>IPAddress</artifactId>
-	    <version>-v1.0.0-gf21e824-8</version>
+	    <version>-SNAPSHOT</version>
     </dependency>
