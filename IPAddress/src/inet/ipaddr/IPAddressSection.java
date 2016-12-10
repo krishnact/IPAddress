@@ -1342,7 +1342,7 @@ public abstract class IPAddressSection extends IPAddressSegmentGrouping {
 				} else {
 					isNotFirst = true;
 				}
-				SQLStringMatcher<?, ?, ?> matcher = createdStr.getNetworkStringMatcher(isEntireAddress, translator);
+				SQLStringMatcher<?, ?, ?> matcher = (SQLStringMatcher<?, ?, ?>)createdStr.getNetworkStringMatcher(isEntireAddress, translator);
 				matcher.getSQLCondition(builder.append('('), expression).append(')');
 			}
 			if(createdStringCollection.size() > 1) {
